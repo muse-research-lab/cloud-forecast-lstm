@@ -10,11 +10,10 @@ This repository contains the code to deploy and train a LSTM model and do infere
 
 ## Model Deployment & Training <br />
 
-![Screenshot](docs/images/lstm_deployment.png)
-![Screenshot](docs/images/data_structure.png)
+<img src="docs/images/lstm_deployment.png" width="600"/>
+<img src="docs/images/data_structure.png" width="500"/>
 
-<img src="docs/images/lstm_deployment.png" width="500"/>
-<img src="docs/images/data_structure.png" width="250"/>
+The training of each model should about 2 minutes on average.
 
 ## Model Inference <br />
 
