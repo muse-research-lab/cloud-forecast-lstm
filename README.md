@@ -13,7 +13,7 @@ This repository contains the code to deploy and train a LSTM model and do infere
 <img src="docs/images/lstm_deployment.png" width="600"/>
 <img src="docs/images/data_structure.png" width="500"/>
 
-The training of each model should about 2 minutes on average.
+We train one model for each job. The training of each model should about 2 minutes on average.
 
 ## Model Inference <br />
 
