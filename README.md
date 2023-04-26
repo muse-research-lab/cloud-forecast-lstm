@@ -4,7 +4,7 @@ This repository contains the code to deploy and train a LSTM model and do infere
 
 ## Repository Structure <br />
 
-* `input/` : contains the timeseries data that are used in the experiments.
+* `docs/` : contains the timeseries data that are used in the experiments. The data can be found in the respective folders, with the label of each job.
 *  `train_lstms.py` : deploys and trains a LSTM. Takes one command line argument as input, which is the label of the job that the LSTM will be trained on. It comprises of 3 digits, e.g., '113'. The output created is a folder containing the pre-trained model.
 * `inference.py` : infers a timeseries using a pre-trained LSTM model. Takes one command line argument as input, which is the label of the model that will be fetched to do the inference. It comprises of 3 digits, e.g., '113'. The output created is the infered timeseries and a graph of the predicted and the actual values.
 
