@@ -17,14 +17,12 @@ The training of each model should about 2 minutes on average.
 
 ## Model Inference <br />
 
+For the inference, we choose one model to predict the rest of the tasks of the same job it was trained on. The results are plotted in the same graph as the actual timeseries, as shown below: 
 
+<img src="docs/images/task_2_job_382_using_self_model.png" width="1000"/>
+<img src="docs/images/task_82_job_113_using_self_model.png" width="1000"/>
 
 
 ## Paper Reference <br />
-Georgia Christofidi, Konstantinos Papaioannou, and Thaleia Dimitra Doudali. 2023. <br /> Toward Pattern-based Model Selection for Cloud Resource Forecasting. <br /> In 3rd Workshop on Machine Learning and Systems (EuroMLSys ’23), May 8, 2023, Rome, Italy. ACM, New York, NY, USA, 8 pages. <br /> https://doi.org/10.1145/3578356.3592588 <br />
+Georgia Christofidi, Konstantinos Papaioannou, and Thaleia Dimitra Doudali. 2023. <br /><br /> Toward Pattern-based Model Selection for Cloud Resource Forecasting. <br /><br /> In 3rd Workshop on Machine Learning and Systems (EuroMLSys ’23), May 8, 2023, Rome, Italy. <br /> <br /> https://doi.org/10.1145/3578356.3592588 <br />
  
- ## License<br />
-
-Copyright (c) 2023 Muse Lab. All rights reserved. <br />
-
-Licensed under the MIT License.
