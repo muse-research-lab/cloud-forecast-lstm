@@ -19,7 +19,7 @@ We train one model for each job. The training of each model should about 2 minut
 
 For the inference, we choose one model to predict the rest of the tasks of the same job it was trained on. The results are plotted in the same graph as the actual timeseries, as shown below: 
 
-<img src="docs/images/task_15_job_917_using_self_model.png" width="1000"/>
+<img src="docs/images/task_15_ job_917_using_self_model.png" width="1000"/>
 <img src="docs/images/task_82_job_113_using_self_model.png" width="1000"/>
 
 
