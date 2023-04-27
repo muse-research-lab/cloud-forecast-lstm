@@ -13,7 +13,7 @@ This repository contains the code to deploy and train a LSTM model and do infere
 <img src="docs/images/lstm_deployment.png" width="600"/>
 <img src="docs/images/data_structure.png" width="500"/>
 
-We train one model for each job.
+We train one model for each job. We configure the same hyperparameters across all models for simplicity. 
 
 ## Model Inference <br />
 
