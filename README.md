@@ -5,15 +5,15 @@ This repository contains the code to deploy and train a LSTM model and do infere
 ## Repository Structure <br />
 
 * `docs/` : contains the timeseries data that are used in the experiments. The data can be found in the respective folders, with the label of each job.
-*  `train_lstms.py` : deploys and trains a LSTM. Takes one command line argument as input, which is the label of the job that the LSTM will be trained on. It comprises of 3 digits, e.g., '113'. The output created is a folder containing the pre-trained model.
-* `inference.py` : infers a timeseries using a pre-trained LSTM model. Takes one command line argument as input, which is the label of the model that will be fetched to do the inference. It comprises of 3 digits, e.g., '113'. The output created is the infered timeseries and a graph of the predicted and the actual values.
+*  `train_lstms.py` : deploys and trains a LSTM. Takes one command line argument as input, which is the label of the job that the LSTM will be trained on. It comprises of 3 digits, e.g., '113'. The output created is a folder containing the pre-trained model. To run the script: `python train_lstms.py <job_id>`
+* `inference.py` : infers a timeseries using a pre-trained LSTM model. Takes one command line argument as input, which is the label of the model that will be fetched to do the inference. It comprises of 3 digits, e.g., '113'. The output created is the infered timeseries and a graph of the predicted and the actual values. To run the script: `python inference.py <job_id>`
 
 ## Model Deployment & Training <br />
 
 <img src="docs/images/lstm_deployment.png" width="600"/>
 <img src="docs/images/data_structure.png" width="500"/>
 
-We train one model for each job. The training of each model should about 2 minutes on average.
+We train one model for each job.
 
 ## Model Inference <br />
 
