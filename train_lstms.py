@@ -1,4 +1,5 @@
 import os
+import sys
 import pandas as pd
 import numpy as np
 from tensorflow import keras
@@ -21,8 +22,8 @@ def split_sequence(sequence, n_steps):
         y.append(seq_y)
     return np.array(X), np.array(y)
 
-job_id = '113812204462'
-job_label = '113'
+job_id = sys.argv[1]
+job_label = sys.argv[1]
 columns_to_use = ['avg_cpu_usage', 'time']
 time_col = 'time'
 col = 'avg_cpu_usage'
@@ -30,7 +31,7 @@ time_unit = 'us'
 freq = '5min'
 
 # folder path
-dir_path = r'input-large/' + job_id + '/'
+dir_path = r'docs/' + job_id + '/'
 
 # list to store files
 list_of_files = []
@@ -46,10 +47,9 @@ for path in os.listdir(dir_path):
 csv_data_list = []
 for i in list_of_files:
     type(i)
-    dir = 'input-large/' +job_id + '/' + i 
+    dir = 'docs/' +job_id + '/' + i 
     csv_data_list.append(pd.read_csv(filepath_or_buffer=dir, usecols=columns_to_use))
 
-#print(job_id)
 print(job_label)
 
 data = []
