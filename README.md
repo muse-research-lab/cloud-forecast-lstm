@@ -1,4 +1,4 @@
-# Cloud resources forecasting using LSTM Neural Networks
+# Cloud Resource Forecasting Using LSTM Neural Networks
 
 This repository contains the code to deploy and train a LSTM model and do inference on test data, using timeseries of CPU usage from Google's trace dataset (2019).
 
@@ -24,5 +24,11 @@ For the inference, we choose one model to predict the rest of the tasks of the s
 
 
 ## Paper Reference <br />
-Georgia Christofidi, Konstantinos Papaioannou, and Thaleia Dimitra Doudali. 2023. <br /><br /> Toward Pattern-based Model Selection for Cloud Resource Forecasting. <br /><br /> In 3rd Workshop on Machine Learning and Systems (EuroMLSys ’23), May 8, 2023, Rome, Italy. <br /> <br /> https://doi.org/10.1145/3578356.3592588 <br />
+Georgia Christofidi, Konstantinos Papaioannou, and Thaleia Dimitra Doudali. 2023. <br /><br /> Toward Pattern-based Model Selection for Cloud Resource Forecasting. <br /><br /> In 3rd Workshop on Machine Learning and Systems (EuroMLSys ’23), May 8, 2023, Rome, Italy. <br /> <br /> 
+
+## Licence <br />
+The MIT License (MIT)
  
+## Acknowledgements <br />
+This work is part of the grant FJC2021-047102-I, funded by MCIN/AEI/10.13039/501100011033 and the European Union «NextGenerationEU»/PRTR.<br /> 
+<img src="docs/images/micin-financiadoUEnextgeneration-prtr-aei-1.png" width="1000"/>
